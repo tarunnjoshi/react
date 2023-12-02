@@ -6,6 +6,7 @@ import Cart from './components/Cart.jsx'
 
 function App() {
 	const [count, setCount] = useState(0)
+	
 	let myObj = {
 		name: 'Tarun',
 		secondname: 'TarunJoshi',

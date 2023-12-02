@@ -1,5 +1,6 @@
 import React from "react"
 
+// When we use prop on cart or some variable, both are same, || On App.jsx we are using 2 cart but when we want the diff name for both cart then we use the prop
 function Cart({customObj, btnText}){
 	return(
 	<>  

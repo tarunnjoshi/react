@@ -1,7 +1,8 @@
 import React from "react"
 
 // When we use prop on cart or some variable, both are same, || On App.jsx we are using 2 cart but when we want the diff name for both cart then we use the prop
-function Cart({customObj, btnText}){
+// Visit me is an default value 
+function Cart({customObj, btnText="visit me"}){
 	return(
 	<>  
 		<div className="relative h-[400px] w-[300px] rounded-md">
@@ -18,8 +19,8 @@ function Cart({customObj, btnText}){
 			debitis?
 			</p>
 			<button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
-			{btnText || "Visit me "}
-			{/* Visit me is default value when no one pass the prop */}
+			{btnText}
+			{/* Visit me is default value when no one pass the prop {btnText || "Visit me "} */}
 			</button>
 		</div>
 		</div>
